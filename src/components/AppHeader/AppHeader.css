@@ -1,0 +1,40 @@
+.appHeader {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    min-width: 360px;
+    padding: 10px;
+}
+
+button {
+    background-color: #5e54e3;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 10px;
+    width: 80px;
+}
+
+input {
+    border: 1px solid #d6d6d6;
+    font-size: 24px;
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.header > h1 {
+    text-align: center;
+  }
+
+#search {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #d6d6d6;
+    font-size: 24px;
+}
+
+form > div {
+    display: flex;
+    flex-flow: row nowrap;
+}

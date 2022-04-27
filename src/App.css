@@ -1,0 +1,22 @@
+  .App {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    min-width: 360px;
+    
+  }
+
+  .appBlur{
+    filter: blur(2px)
+  }
+  
+  .overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+  }

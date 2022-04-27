@@ -1,0 +1,30 @@
+.paginator{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.title{
+    margin-left : 10px;
+    margin-right : 10px;
+}
+
+button{
+    background-color: #5e54e3;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 10px;
+    width: 80px;
+}
+
+.pageInfoWrapper, .pageInfoWrapper > div {
+    display: flex;
+    justify-content: center;;
+    font-size: 24px;
+}
+
+.pageInfoWrapper > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
